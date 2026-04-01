@@ -23,11 +23,10 @@
         <div class="hidden md:flex space-x-8 font-medium">
             <a href="#" class="hover:text-blue-600 transition">Início</a>
             <a href="#sobre" class="hover:text-blue-600 transition">Sobre</a>
-            
             <a href="#cursos" class="hover:text-blue-600 transition">Cursos</a>
             <a href="#localizacao" class="hover:text-blue-600 transition">Localização</a>
         </div>
-        <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">Inscrições</a>
+        <a href="#inscricao" class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">Inscrições</a>
     </nav>
 
     <section class="hero-gradient h-[80vh] flex items-center justify-center text-center text-white px-4">
@@ -53,78 +52,102 @@
     </section>
 
     <section id="sobre" class="py-20 px-8 max-w-7xl mx-auto">
-        <section id="cursos" class="py-20 bg-slate-100">
-        <div class="max-w-7xl mx-auto px-8">
-            <div class="text-center mb-16">
+        <div id="cursos" class="mb-24">
+            <div class="text-center mb-12">
                 <h2 class="text-blue-600 font-bold tracking-wide uppercase mb-2">Oferta Formativa</h2>
                 <h3 class="text-4xl font-bold text-slate-800">Cursos de Especialização</h3>
-                <p class="text-slate-600 mt-4 max-w-2xl mx-auto">
-                    Programas intensivos desenhados para elevar o padrão de competência dos profissionais do sector da saúde em Angola.
-                </p>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-slate-200 hover:shadow-xl transition-shadow group">
-                    <div class="p-8">
-                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors">
-                            <svg class="w-6 h-6 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
-                        </div>
-                        <h4 class="text-xl font-bold mb-3 text-slate-800">Análises Clínicas</h4>
-                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Capacitação técnica em diagnóstico laboratorial e colheita de amostras biológicas.</p>
-                        <div class="flex items-center justify-between pt-6 border-t border-slate-100">
-                            <span class="flex items-center text-sm font-semibold text-slate-500">
-                                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                160 Horas
-                            </span>
-                            <span class="text-[10px] bg-green-100 text-green-700 font-bold px-2 py-1 rounded uppercase">INEFOP</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-slate-200 hover:shadow-xl transition-shadow group">
-                    <div class="p-8">
-                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors">
-                            <svg class="w-6 h-6 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.040L3 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622l-1.382-3.016z"></path></svg>
-                        </div>
-                        <h4 class="text-xl font-bold mb-3 text-slate-800">Segurança e Higiene</h4>
-                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Normas de biossegurança e gestão de riscos em ambientes hospitalares e laboratoriais.</p>
-                        <div class="flex items-center justify-between pt-6 border-t border-slate-100">
-                            <span class="flex items-center text-sm font-semibold text-slate-500">
-                                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                120 Horas
-                            </span>
-                            <span class="text-[10px] bg-green-100 text-green-700 font-bold px-2 py-1 rounded uppercase">INEFOP</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-slate-200 hover:shadow-xl transition-shadow group">
-                    <div class="p-8">
-                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors">
-                            <svg class="w-6 h-6 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
-                        </div>
-                        <h4 class="text-xl font-bold mb-3 text-slate-800">Gestão de Resíduos</h4>
-                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Práticas de desenvolvimento sustentável e eliminação ética de resíduos biológicos.</p>
-                        <div class="flex items-center justify-between pt-6 border-t border-slate-100">
-                            <span class="flex items-center text-sm font-semibold text-slate-500">
-                                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                140 Horas
-                            </span>
-                            <span class="text-[10px] bg-green-100 text-green-700 font-bold px-2 py-1 rounded uppercase">INEFOP</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-lg transition-all group p-5">
+                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+                       <svg class="w-5 h-5 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+  
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14h1.5l1 2 2-4 1 2h1.5"></path>
+</svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2 text-slate-800">Saúde Ocupacional e Prevenção de Riscos Profissionais</h4>
+                    <p class="text-slate-600 text-xs mb-4 leading-relaxed">Capacitação técnica em diagnóstico laboratorial e colheita.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-100 mt-auto">
+                        <span class="flex items-center text-[11px] font-bold text-slate-500">
+                            
+                            Dr.ª Aida Azancot de Menezes
+                       
+                    </div>
                 </div>
 
-            <div class="mt-16 text-center">
-                <p class="text-slate-500 italic mb-4">Cargas horárias compreendidas entre 120 e 200 horas.</p>
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-lg transition-all group p-5">
+                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+                        <svg class="w-5 h-5 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.040L3 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622l-1.382-3.016z"></path></svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2 text-slate-800">Saúde, Segurança e Ambiente (HSE)</h4>
+                    <p class="text-slate-600 text-xs mb-4 leading-relaxed">Normas de biossegurança e gestão de riscos hospitalares.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-100 mt-auto">
+                        <span class="flex items-center text-[11px] font-bold text-slate-500">
+                            
+                           Eng. Mário Tavira | Dr.ª Carla Guerreiro
+
+                        </span>
+                        
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-lg transition-all group p-5">
+                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+                        <svg class="w-5 h-5 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21.35c-4.42 0-8-3.58-8-8V7l8-4 8 4v6.35c0 4.42-3.58 8-8 8z"></path>
+  
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 11h2a2 2 0 012 2v2a2 2 0 01-2 2h-2m-2-4v4"></path>
+  
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c1.33 0 2 .67 2 2s-.67 2-2 2"></path>
+</svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2 text-slate-800">Biossegurança e Segurança Alimentar</h4>
+                    <p class="text-slate-600 text-xs mb-4 leading-relaxed">Práticas de eliminação ética de resíduos biológicos.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-100 mt-auto">
+                        <span class="flex items-center text-[11px] font-bold text-slate-500">
+                           
+                            Dr. Alexandre Saul
+                        </span>
+                        
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-lg transition-all group p-5">
+                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+                        <svg class="w-5 h-5 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <circle stroke-linecap="round" stroke-linejoin="round" stroke-width="2" cx="11" cy="11" r="8"></circle>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35"></path>
+  
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 11a3 3 0 100-6 3 3 0 000 6z"></path>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 15c0-1.5 1.5-2 4-2s4 .5 4 2"></path>
+  
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11h1l1-2 1 3 1-1h1"></path>
+</svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2 text-slate-800">Avaliação Diagnóstica Ocupacional Integrada</h4>
+                    <p class="text-slate-600 text-xs mb-4 leading-relaxed">Interação entre saúde pública e preservação ambiental.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-100 mt-auto">
+
+                        <span class="flex items-center text-[11px] font-bold text-slate-500">
+                            
+                           Dr.ª Ângela Faria  |
+                           Téc.Cláudia Carvalho
+                        </span>
+                       
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-12 text-center">
                 <button class="bg-blue-600 text-white px-10 py-4 rounded-full font-bold shadow-lg hover:bg-blue-700 transition">Baixar Catálogo Completo (PDF)</button>
             </div>
         </div>
-    </section>
 
-    
+       
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <div>
                 <h2 class="text-blue-600 font-bold tracking-wide uppercase mb-2">Sobre a Academia</h2>
@@ -135,11 +158,11 @@
                 </p>
                 <div class="grid grid-cols-2 gap-6">
                     <div class="border-l-4 border-blue-600 pl-4">
-                        <span class="block text-2xl font-bold text-slate-800">120h-200h</span>
+                        <span class="block text-2xl font-bold text-slate-800">60 Horas</span>
                         <span class="text-sm text-slate-500 italic">Carga Horária</span>
                     </div>
                     <div class="border-l-4 border-green-500 pl-4">
-                        <span class="block text-2xl font-bold text-slate-800">6 Cursos</span>
+                        <span class="block text-2xl font-bold text-slate-800">4 Cursos</span>
                         <span class="text-sm text-slate-500 italic">Plano Inicial</span>
                     </div>
                 </div>
@@ -266,10 +289,12 @@
             <select name="curso" required 
                 class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition bg-white text-slate-600">
                 <option value="" disabled selected>Seleccione o curso</option>
-                <option value="Análises Clínicas">Análises Clínicas</option>
-                <option value="Segurança e Higiene no Trabalho">Segurança e Higiene no Trabalho</option>
-                <option value="Gestão de Resíduos e Ambiente">Gestão de Resíduos e Ambiente</option>
-                <option value="Outros Cursos">Outros Cursos (120h-200h)</option>
+                <option value="Análises Clínicas">Saúde Ocupacional e Prevenção de Riscos Profissionais </option>
+                <option value="Segurança e Higiene no Trabalho">Saúde, Segurança e Ambiente (HSE) </option>
+                <option value="Gestão de Resíduos e Ambiente">Biossegurança e Segurança Alimentar</option>
+                <option value="Outros Cursos">Avaliação Diagnóstica Ocupacional Integrada 
+                                                  – Audiometria, Espirometria, Visiotest e Cardiopneumologia 
+                                                                 (ECG, MAPA e HOLTER Cardíaco) </option>
             </select>
         </div>
 
